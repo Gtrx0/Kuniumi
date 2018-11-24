@@ -1,0 +1,473 @@
+EESchema Schematic File Version 4
+LIBS:PROJECT-cache
+EELAYER 26 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 2 2
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L device:D_ALT D1
+U 1 1 5B4C5125
+P 2550 3000
+F 0 "D1" H 2550 3100 50  0000 C CNN
+F 1 "D" H 2550 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 2550 3000 50  0001 C CNN
+F 3 "" H 2550 3000 50  0001 C CNN
+	1    2550 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	2700 2850 2550 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX1
+U 1 1 5B4C4302
+P 2725 2675
+F 0 "MX1" H 2725 2800 60  0000 C CNN
+F 1 "MX-1U" H 2725 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 2700 2650 60  0001 C CNN
+F 3 "" H 2700 2650 60  0001 C CNN
+	1    2725 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-ISO MX?
+U 1 1 5BAB5240
+P -475 6750
+F 0 "MX?" H -389 6967 60  0000 C CNN
+F 1 "MX-ISO" H -389 6893 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-ISO-ReversedStabilizers" H -500 6725 60  0001 C CNN
+F 3 "" H -500 6725 60  0001 C CNN
+	1    -475 6750
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-6.25U MX?
+U 1 1 5BAB5353
+P -525 5150
+F 0 "MX?" H -439 5367 60  0000 C CNN
+F 1 "MX-6.25U" H -439 5293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-6.25U" H -550 5125 60  0001 C CNN
+F 3 "" H -550 5125 60  0001 C CNN
+	1    -525 5150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5BAB5719
+P -700 5475
+F 0 "D?" H -700 5575 50  0000 C CNN
+F 1 "D" H -700 5375 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H -700 5475 50  0001 C CNN
+F 3 "" H -700 5475 50  0001 C CNN
+	1    -700 5475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-550 5325 -700 5325
+$Comp
+L MX_Alps_Hybrids:MX-1.5U MX?
+U 1 1 5BABB488
+P -750 3150
+F 0 "MX?" H -664 3367 60  0000 C CNN
+F 1 "MX-1.5U" H -664 3293 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.5U" H -775 3125 60  0001 C CNN
+F 3 "" H -775 3125 60  0001 C CNN
+	1    -750 3150
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5BABB494
+P -925 3475
+F 0 "D?" H -925 3575 50  0000 C CNN
+F 1 "D" H -925 3375 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H -925 3475 50  0001 C CNN
+F 3 "" H -925 3475 50  0001 C CNN
+	1    -925 3475
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-775 3325 -925 3325
+$Comp
+L MX_Alps_Hybrids:MX-1.75U MX?
+U 1 1 5BAC5E80
+P -525 5775
+F 0 "MX?" H -439 5992 60  0000 C CNN
+F 1 "MX-1.75U" H -439 5918 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1.75U" H -550 5750 60  0001 C CNN
+F 3 "" H -550 5750 60  0001 C CNN
+	1    -525 5775
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5BAC5E86
+P -700 6100
+F 0 "D?" H -700 6200 50  0000 C CNN
+F 1 "D" H -700 6000 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H -700 6100 50  0001 C CNN
+F 3 "" H -700 6100 50  0001 C CNN
+	1    -700 6100
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-550 5950 -700 5950
+$Comp
+L MX_Alps_Hybrids:MX-2.25U MX?
+U 1 1 5BAD21D3
+P -625 4450
+F 0 "MX?" H -539 4667 60  0000 C CNN
+F 1 "MX-2.25U" H -539 4593 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-2.25U" H -650 4425 60  0001 C CNN
+F 3 "" H -650 4425 60  0001 C CNN
+	1    -625 4450
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5BAD21DF
+P -800 4775
+F 0 "D?" H -800 4875 50  0000 C CNN
+F 1 "D" H -800 4675 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H -800 4775 50  0001 C CNN
+F 3 "" H -800 4775 50  0001 C CNN
+	1    -800 4775
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-650 4625 -800 4625
+$Comp
+L device:D_ALT D?
+U 1 1 5C2004A8
+P -650 7075
+F 0 "D?" H -650 7175 50  0000 C CNN
+F 1 "D" H -650 6975 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H -650 7075 50  0001 C CNN
+F 3 "" H -650 7075 50  0001 C CNN
+	1    -650 7075
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	-500 6925 -650 6925
+$Comp
+L device:D_ALT D?
+U 1 1 5C200C8D
+P 2975 3000
+F 0 "D?" H 2975 3100 50  0000 C CNN
+F 1 "D" H 2975 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 2975 3000 50  0001 C CNN
+F 3 "" H 2975 3000 50  0001 C CNN
+	1    2975 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3125 2850 2975 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C200C94
+P 3150 2675
+F 0 "MX?" H 3150 2800 60  0000 C CNN
+F 1 "MX-1U" H 3150 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3125 2650 60  0001 C CNN
+F 3 "" H 3125 2650 60  0001 C CNN
+	1    3150 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C200E40
+P 3400 3000
+F 0 "D?" H 3400 3100 50  0000 C CNN
+F 1 "D" H 3400 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 3400 3000 50  0001 C CNN
+F 3 "" H 3400 3000 50  0001 C CNN
+	1    3400 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3550 2850 3400 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C200E47
+P 3575 2675
+F 0 "MX?" H 3575 2800 60  0000 C CNN
+F 1 "MX-1U" H 3575 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3550 2650 60  0001 C CNN
+F 3 "" H 3550 2650 60  0001 C CNN
+	1    3575 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C200E4D
+P 3825 3000
+F 0 "D?" H 3825 3100 50  0000 C CNN
+F 1 "D" H 3825 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 3825 3000 50  0001 C CNN
+F 3 "" H 3825 3000 50  0001 C CNN
+	1    3825 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	3975 2850 3825 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C200E54
+P 4000 2675
+F 0 "MX?" H 4000 2800 60  0000 C CNN
+F 1 "MX-1U" H 4000 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 3975 2650 60  0001 C CNN
+F 3 "" H 3975 2650 60  0001 C CNN
+	1    4000 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C2013D6
+P 4250 3000
+F 0 "D?" H 4250 3100 50  0000 C CNN
+F 1 "D" H 4250 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 4250 3000 50  0001 C CNN
+F 3 "" H 4250 3000 50  0001 C CNN
+	1    4250 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4400 2850 4250 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C2013DD
+P 4425 2675
+F 0 "MX?" H 4425 2800 60  0000 C CNN
+F 1 "MX-1U" H 4425 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4400 2650 60  0001 C CNN
+F 3 "" H 4400 2650 60  0001 C CNN
+	1    4425 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C2013E3
+P 4675 3000
+F 0 "D?" H 4675 3100 50  0000 C CNN
+F 1 "D" H 4675 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 4675 3000 50  0001 C CNN
+F 3 "" H 4675 3000 50  0001 C CNN
+	1    4675 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	4825 2850 4675 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C2013EA
+P 4850 2675
+F 0 "MX?" H 4850 2800 60  0000 C CNN
+F 1 "MX-1U" H 4850 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 4825 2650 60  0001 C CNN
+F 3 "" H 4825 2650 60  0001 C CNN
+	1    4850 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C2013F0
+P 5100 3000
+F 0 "D?" H 5100 3100 50  0000 C CNN
+F 1 "D" H 5100 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 5100 3000 50  0001 C CNN
+F 3 "" H 5100 3000 50  0001 C CNN
+	1    5100 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5250 2850 5100 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C2013F7
+P 5275 2675
+F 0 "MX?" H 5275 2800 60  0000 C CNN
+F 1 "MX-1U" H 5275 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5250 2650 60  0001 C CNN
+F 3 "" H 5250 2650 60  0001 C CNN
+	1    5275 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C2013FD
+P 5525 3000
+F 0 "D?" H 5525 3100 50  0000 C CNN
+F 1 "D" H 5525 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 5525 3000 50  0001 C CNN
+F 3 "" H 5525 3000 50  0001 C CNN
+	1    5525 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	5675 2850 5525 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C201404
+P 5700 2675
+F 0 "MX?" H 5700 2800 60  0000 C CNN
+F 1 "MX-1U" H 5700 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 5675 2650 60  0001 C CNN
+F 3 "" H 5675 2650 60  0001 C CNN
+	1    5700 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C201BEE
+P 5950 3000
+F 0 "D?" H 5950 3100 50  0000 C CNN
+F 1 "D" H 5950 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 5950 3000 50  0001 C CNN
+F 3 "" H 5950 3000 50  0001 C CNN
+	1    5950 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6100 2850 5950 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C201BF5
+P 6125 2675
+F 0 "MX?" H 6125 2800 60  0000 C CNN
+F 1 "MX-1U" H 6125 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6100 2650 60  0001 C CNN
+F 3 "" H 6100 2650 60  0001 C CNN
+	1    6125 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C201BFB
+P 6375 3000
+F 0 "D?" H 6375 3100 50  0000 C CNN
+F 1 "D" H 6375 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 6375 3000 50  0001 C CNN
+F 3 "" H 6375 3000 50  0001 C CNN
+	1    6375 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6525 2850 6375 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C201C02
+P 6550 2675
+F 0 "MX?" H 6550 2800 60  0000 C CNN
+F 1 "MX-1U" H 6550 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6525 2650 60  0001 C CNN
+F 3 "" H 6525 2650 60  0001 C CNN
+	1    6550 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C201C08
+P 6800 3000
+F 0 "D?" H 6800 3100 50  0000 C CNN
+F 1 "D" H 6800 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 6800 3000 50  0001 C CNN
+F 3 "" H 6800 3000 50  0001 C CNN
+	1    6800 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	6950 2850 6800 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C201C0F
+P 6975 2675
+F 0 "MX?" H 6975 2800 60  0000 C CNN
+F 1 "MX-1U" H 6975 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 6950 2650 60  0001 C CNN
+F 3 "" H 6950 2650 60  0001 C CNN
+	1    6975 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C201C15
+P 7225 3000
+F 0 "D?" H 7225 3100 50  0000 C CNN
+F 1 "D" H 7225 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 7225 3000 50  0001 C CNN
+F 3 "" H 7225 3000 50  0001 C CNN
+	1    7225 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7375 2850 7225 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C201C1C
+P 7400 2675
+F 0 "MX?" H 7400 2800 60  0000 C CNN
+F 1 "MX-1U" H 7400 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7375 2650 60  0001 C CNN
+F 3 "" H 7375 2650 60  0001 C CNN
+	1    7400 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C201C22
+P 7650 3000
+F 0 "D?" H 7650 3100 50  0000 C CNN
+F 1 "D" H 7650 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 7650 3000 50  0001 C CNN
+F 3 "" H 7650 3000 50  0001 C CNN
+	1    7650 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	7800 2850 7650 2850
+$Comp
+L MX_Alps_Hybrids:MX-1U MX?
+U 1 1 5C201C29
+P 7825 2675
+F 0 "MX?" H 7825 2800 60  0000 C CNN
+F 1 "MX-1U" H 7825 2725 20  0000 C CNN
+F 2 "MX_Alps_Hybrid:MX-1U" H 7800 2650 60  0001 C CNN
+F 3 "" H 7800 2650 60  0001 C CNN
+	1    7825 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L MX_Alps_Hybrids:MX-2U MX?
+U 1 1 5C202BE1
+P 8250 2675
+F 0 "MX?" H 8336 2892 60  0000 C CNN
+F 1 "MX-2U" H 8336 2818 20  0000 C CNN
+F 2 "" H 8225 2650 60  0001 C CNN
+F 3 "" H 8225 2650 60  0001 C CNN
+	1    8250 2675
+	1    0    0    -1  
+$EndComp
+$Comp
+L device:D_ALT D?
+U 1 1 5C20308B
+P 8075 3000
+F 0 "D?" H 8075 3100 50  0000 C CNN
+F 1 "D" H 8075 2900 50  0000 C CNN
+F 2 "Keebio-Parts:Diode" H 8075 3000 50  0001 C CNN
+F 3 "" H 8075 3000 50  0001 C CNN
+	1    8075 3000
+	0    -1   -1   0   
+$EndComp
+Wire Wire Line
+	8225 2850 8075 2850
+$EndSCHEMATC
