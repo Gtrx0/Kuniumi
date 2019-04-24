@@ -11,3 +11,6 @@
 
 ## Warning
 KiCad 5 or above is needed to open this project. KiCad 4 or below won't work.
+
+## Credit
+60% outline developed by Amtra5
